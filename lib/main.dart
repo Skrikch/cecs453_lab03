@@ -32,6 +32,9 @@ class AffirmationsScreen extends StatelessWidget {
 
   final List<Affirmation> affirmations = const [
     Affirmation(text: "My schemes are masterful", imageAsset: "assets/rat_fist.webp"),
+    Affirmation(text: "I am safe, loved, and cared for", imageAsset: "assets/take_care.jpeg"),
+    Affirmation(text: "It's okay to treat yourself once in a while", imageAsset: "assets/snack.jpg"),
+    Affirmation(text: "My only limits are those I put on myself", imageAsset: "assets/greener_grass.jpeg")
     // TODO: Add more
   ];
 
