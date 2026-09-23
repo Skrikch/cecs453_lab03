@@ -31,7 +31,7 @@ class AffirmationsScreen extends StatelessWidget {
   const AffirmationsScreen({super.key});
 
   final List<Affirmation> affirmations = const [
-    Affirmation(text: "My schemes are masterful", imageAsset: "assets/"),
+    Affirmation(text: "My schemes are masterful", imageAsset: "assets/rat_fist.webp"),
     // TODO: Add more
   ];
 
