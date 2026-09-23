@@ -35,7 +35,6 @@ class AffirmationsScreen extends StatelessWidget {
     Affirmation(text: "I am safe, loved, and cared for", imageAsset: "assets/take_care.jpeg"),
     Affirmation(text: "It's okay to treat yourself once in a while", imageAsset: "assets/snack.jpg"),
     Affirmation(text: "My only limits are those I put on myself", imageAsset: "assets/greener_grass.jpeg")
-    // TODO: Add more
   ];
 
   @override
@@ -56,6 +55,9 @@ class AffirmationsScreen extends StatelessWidget {
           // Populating the ListView with a List<affirmations>
           return Card(
             margin: const EdgeInsets.only(bottom: 16),
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+            clipBehavior: Clip.antiAlias,
+            color: Colors.white24,
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
