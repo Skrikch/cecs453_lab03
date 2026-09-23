@@ -55,6 +55,7 @@ class AffirmationsScreen extends StatelessWidget {
           // Populating the ListView with a List<affirmations>
           return Card(
             margin: const EdgeInsets.only(bottom: 16),
+            // These two lines help round the corners of our cards, and also deal with image clipping issues
             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
             clipBehavior: Clip.antiAlias,
             color: Colors.white24,
